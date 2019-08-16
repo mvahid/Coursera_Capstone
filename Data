@@ -1,0 +1,14 @@
+The Battle of the Neighborhoods - Week 1
+Data :
+Two cities will be analysed in this project : Manhattan and Downtown Toronto.
+
+I will be using the below 2 datasets for analysing Manhattan and Downtown Toronto.
+1. https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
+2.http://cocl.us/Geospatial_data/Geospatial_Coordinates.csv
+3.https://cocl.us/new_york_dataset
+
+
+
+Data 3 : Neighborhood has a total of 5 boroughs and 306 neighborhoods. 
+In order to segement the neighborhoods and explore them, we will essentially need a dataset that contains the 5 boroughs and 
+the neighborhoods that exist in each borough as well as the the latitude and logitude coordinates of each neighborhood.
