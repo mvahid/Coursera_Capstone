@@ -15,3 +15,27 @@ And now the information is so common regarding location of every place around th
 Therefore, tourists always eager to travel to different places on the basis of available information, 
 and the comparison (the part of the information) between the two cities always assist to choose the specific places or
 according to their choice.</p>
+
+<h2>DATA DESCRIPTION</h2>
+For this problem, I will get the services of Foursquare API to explore the data of two cities, in terms of their neighborhoods. 
+The data also include the information about the places around each neighborhood like restaurants, hotels, coffee shops, parks, theaters,
+art galleries, museums and many more. I have selected one Borough from each city to analyze their neighborhoods.Manhattan from New York and Downtown Toronto from Toronto.
+I will use machine learning technique, “Clustering” to segment the neighborhoods with similar objects on the basis of each neighborhood
+data. These objects will be given priority on the basis of foot traffic (activity) in their respective neighborhoods. 
+This will help to locate the tourist’s areas and hubs, and then we can judge the similarity or dissimilarity between two cities on that basis.
+
+<h2>METHODOLOGY</h2>
+I have selected two cities  Downtown Toronto  and Manhattan to explore their neighborhoods.
+The data exploration, analysis and visualization for both the cities are done in the similar way.
+Tried to use the K mean clustering to clustre the neighborhood.
+
+<h2>EXPLORATION</h2>
+For Downtown Toronto case, we have extracted table of Toronto’s Borough from Wikipedia page. 
+Then we arrange the data according to our requirements. In the arrangement phase, which applied multiple steps including but not limited to, eliminating “Not assigned” values,
+combine neighborhoods which have same geographical coordinates at each borough and sorted against the concerned borough. 
+For data verification and further exploration, we use Foursquare API to get the coordinates of Downtown Toronto and explore its neighborhoods. The neighborhoods are further characterized as venues and venue categories.
+For Manhattan, we used a saved data file which is already explored through foursquare API in which we have extracted all the boroughs of New York and then sorted against the concerned borough. 
+Then we explored the Manhattan neighborhoods as venues and venue categories.
+
+<h2>Target Audience:</h2>
+This would interest anyone who wants to start a new restaurant/food joint in Downtown Toronto or in Manhattan.
